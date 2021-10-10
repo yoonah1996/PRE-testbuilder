@@ -19,6 +19,7 @@ function detectNetwork(cardNumber) {
    * 이 글을 읽으셨다면, detectNetwork함수가 'Diner's Club', 'American Express'를
    * 정확히 검사할 수 있도록 만들고 브라우저 console 화면으로 돌아가세요.
    */
+  
   let prefix1 = parseInt(cardNumber.substring(0, 1)); //한자리
   let prefix = parseInt(cardNumber.substring(0, 2)); //두자리
   let prefix4 = parseInt(cardNumber.substring(0, 4)); //네자리
